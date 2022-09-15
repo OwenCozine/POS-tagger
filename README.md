@@ -10,3 +10,5 @@ Methods for handling out of vocabulary words based on simple linguistic morpholo
 End and beginning of sentence kept track of to improve the bigram models accuracy
 
 ~93% accuracy on average
+
+python3 score.py keyfile answerfile to test score
