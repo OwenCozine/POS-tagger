@@ -63,7 +63,7 @@ with open(sys.argv[1], 'r') as f:
 with open(sys.argv[2], 'r') as fi:
     testdata = fi.read()
 
-file = open('submission.pos', 'w')
+file = open('taggedwords.pos', 'w')
 
 
 ##Set variables for training
@@ -189,7 +189,7 @@ for word in wordlist:
         finalpairs[-1] = finalpairs[-1] + '\tB'
 
     elif words[word.lower()] < 2: 
-        #Lock in the previous POS here. Should be last error?
+        #Lock in the previous POS here.
         for i in range(len(poslist)):
             hold = viterbi[total - 1][i]
             if (hold > topscore):
