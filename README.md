@@ -1,5 +1,5 @@
 # POS-tagger
-Viterbi HMM part of speech tagger using NLTK
+Viterbi HMM part of speech tagger
 
 Run using python3 ViterbiPOS.py trainingfile testfile
 
